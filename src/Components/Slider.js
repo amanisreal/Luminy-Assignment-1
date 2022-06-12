@@ -9,6 +9,10 @@ function Slider() {
     const nextSlide = () => {
         setCurrent(current === sliderData.length -1? 0 : current +1);
     };
+    
+     const prevSlide = () => {
+        setCurrent (current === 0?sliderData.length-1: current -1  );
+    };
 
     if(!Array.isArray(sliderData) || sliderData.length <=0){
         return null;
@@ -19,7 +23,7 @@ function Slider() {
       <>
     <div className='slidercontainer'>
    
-        <FaArrowAltCircleLeft className='leftArrow'/>
+        <FaArrowAltCircleLeft className='leftArrow' onClick={prevSlide}/>
         <FaArrowAltCircleRight className='rightArrow' onClick={nextSlide}/>
 
         {sliderData.map((slide, index) =>{
