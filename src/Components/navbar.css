@@ -1,0 +1,66 @@
+.nabvarContainer{
+    display: flex;
+   
+}
+
+.leftSide{
+   margin-left: 32px;
+   font-size:1.8rem;
+   margin-top: -25px;
+   
+}
+
+.middle{
+    flex:1;
+   
+}
+
+.middleul{
+    display: flex;
+    
+}
+
+.middleli{
+    list-style: none;
+    margin-top:29px;
+    padding-left: 47px;
+}
+
+.rightSide{
+    display: flex;
+   margin-right: 34px;
+   margin-top: 12px;
+}
+
+.rightSide> span{
+    margin-right: 22px;
+}
+
+.point{
+    background-color: rgb(255, 156, 230);
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.shappe{
+    margin-top: 8px;
+    margin-right: 12px;
+    width: 29px;
+    height: 29px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px 16px 16px 0;
+    box-shadow: 1px 1px 4px;
+}
+
+.userName{
+    margin-top: 6px;
+}
+
+.user{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+}

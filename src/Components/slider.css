@@ -1,0 +1,46 @@
+.slidercontainer{
+    margin-top: -1.8rem;
+    height: 50vh;
+    position: relative;
+    border: 2px solid black;
+    margin-left:50px;
+    margin-right:50px;
+	box-shadow: 0 8px 6px -8.1px black;
+}
+
+.slider-container{
+    
+    margin: 0 30%;
+    margin-top: 6%;
+    
+}
+
+.leftArrow{
+    position: absolute;
+     top:40%;
+     left: 32px;
+     font-size: 3rem;
+     color: #000;
+     cursor:pointer;
+ }
+ 
+.rightArrow{
+    position: absolute;
+    top:40%;
+    right: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.image{
+    margin-left:319px;
+    margin-top: 2rem;
+    height: 300px;
+    width:800px;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
