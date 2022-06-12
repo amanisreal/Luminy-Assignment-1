@@ -7,7 +7,7 @@
    margin-left: 32px;
    font-size:1.8rem;
    margin-top: -25px;
-   
+   display: flex;
 }
 
 .middle{
@@ -63,4 +63,12 @@
     display: flex;
     flex-direction: column;
     margin-right: 12px;
+}
+
+.imgg{
+    height: 4vh;
+    width: 2vw;
+    margin-top: 28%;
+    margin-right: 3%;
+    overflow: hidden;
 }
